@@ -1,0 +1,110 @@
+/*
+Name: Jeethesh Pallinti
+Date: 02/13/2026
+CSC 372-01
+
+This stylesheet provides a clean, responsive layout for the Dine Near Petty blog.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366; 
+    border-bottom: 4px solid #FFB71B;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #003366;
+}
+
+section {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.store-img {
+    border: 2px solid #ddd;
+}
+
+.description {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.dish-card {
+    background: #fafafa;
+    border: 1px solid #eee;
+    padding: 15px;
+    flex: 1 1 calc(33% - 40px);
+    min-width: 250px;
+    text-align: center;
+}
+
+.dish-card h3 {
+    color: #003366;
+    border-bottom: 2px solid #FFB71B;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.credits {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 15px;
+}
+
+#sidebar-info {
+    background-color: #fff9e6;
+    padding: 15px;
+    border-left: 5px solid #FFB71B;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366;
+    color: white;
+    font-size: 0.9rem;
+    border-top: 4px solid #FFB71B;
+}
